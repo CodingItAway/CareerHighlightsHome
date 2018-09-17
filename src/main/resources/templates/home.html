@@ -1,14 +1,70 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
+
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<title>Career Highlights</title>
+    <link th:href="@{/css/HomePage.css}" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 
 <body>
-<div class="container">
 
-</div>
+<header class="showcase">
+    <div class="content">
+        <img th:src="@{/image/homeIcon.png}" class="logo" alt="Career Timelie">
+        <div class="title">
+            Adit Pandey
+        </div>
+        <div class="text">
+            Welcome to my career timeline. You can find my career timeline implemented in various stacks. Choose a stack and feel free to explore! P.S: All the codes are available on Git to view.
+        </div>
+    </div>
+</header>
+
+<!-- Services -->
+<section class="services">
+    <div class="container grid-3 center">
+        <div>
+            <a href="https://github.com/CodingItAway" target="_blank"> <i class="fab fa-github fa-3x"></i></a>
+            <h3>Git</h3>
+            <p>Find some of my projects and the code of this site on Git.</p>
+        </div>
+        <div>
+            <a href="https://www.facebook.com/aditisvegeta" target="_blank"> <i class="fab fa-facebook fa-3x"></i></a>
+            <h3>Facebook</h3>
+            <p>Connect with me on Facebook!</p>
+        </div>
+        <div>
+            <a href="https://www.linkedin.com/in/adit-pandey-6878a116/" target="_blank"> <i class="fab fa-linkedin fa-3x"></i></a>
+            <h3>LinkedIn</h3>
+            <p>Connect me over LinkedIn!</p>
+        </div>
+    </div>
+</section>
+
+<!-- About -->
+<section class="about bg-light">
+    <div class="container">
+        <div class="grid-2">
+            <div class="center">
+                <i class="fas fa-laptop-code fa-10x"></i>
+            </div>
+            <div>
+                <h3>About Me</h3>
+                <p>I am a full stack dev with a total experience of 6+ years. I have worked with some big organizations and handled full stack development,
+                maintenance and production support. I have worked in many domains including Helathcare, Real estate, Banking, Transport. I am good with
+                grasping new technologies and also good with getting used to new domains. I have also worked with small/high delivery teams and also with
+                team spanning across the globe and different timezones. Feel free to get in touch for queries using the details listed below.</p>
+                <p>Email: AditPandey1990@gmail.com</p>
+                <p>Ph: +65-82477443</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="center bg-dark">
+    <p>CodeItAway &copy; 2018</p>
+</footer>
 </body>
 
 </html>

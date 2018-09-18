@@ -26,7 +26,7 @@ body {
 }
 
 .showcase:hover .content {
-    filter: blur(2px);
+    filter: blur(1000px);
     -webkit-filter: blur(2px);
 }
 
@@ -41,6 +41,11 @@ body {
     height: 350px;
     text-align: center;
     transition: all 1000ms;
+}
+
+a{
+    color:black;
+    text-decoration: none;
 }
 
 .content .logo {
